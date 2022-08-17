@@ -4,9 +4,9 @@
 ## 개요
 
 ## 라이브러리 
-- Javascript
-- jQuery
-- Swiper
+✔ Javascript
+✔ jQuery
+✔ Swiper
 
 
 ## 홈페이지 주소
