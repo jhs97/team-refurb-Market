@@ -89,8 +89,10 @@ function showProducts(obj) {
 					<span class="refurb">${refurb}</span>
 				</div>
 				<p class="title">${name}</p>
-				<p class="price"><span>₩</span>${price}</p>
-				<p class="sale"><del><span>₩</span>${sale}</del></p>
+				<p class="price">
+					<span>₩</span>${price}
+					<span class="sale"><del><span>₩</span>${sale}</del></span>
+				</p>
 			</div>
 	</div></a>
 	`

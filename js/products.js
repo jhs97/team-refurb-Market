@@ -73,28 +73,30 @@ function showProducts(obj) {
 		// 상품 전체보기
 		if (params == null) {
 			let html = `
-<a href="notebook-detail.html">
-<div class="product" data-id=${i}>
-	<div class="swiper mySwiper">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide"><img src="${imgUrl1}" alt=${name}></div>
-				<div class="swiper-slide"><img src="${imgUrl2}" alt=${name}></div>
-				<div class="swiper-slide"><img src="${imgUrl3}" alt=${name}></div>
-				<div class="img-cover"></div>
-			</div>
-			<div class="swiper-pagination"></div>
-		</div>
-			<div class="info">
-				<div class="product-name">
-					<span class="category">${category}</span>
-					<span class="refurb">${refurb}</span>
+			<a href="notebook-detail.html">
+				<div class="product" data-id=${i}>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="${imgUrl1}" alt=${name}></div>
+							<div class="swiper-slide"><img src="${imgUrl2}" alt=${name}></div>
+							<div class="swiper-slide"><img src="${imgUrl3}" alt=${name}></div>
+							<div class="img-cover"></div>
+						</div>
+					</div>
+					<div class="info">
+						<div class="product-name">
+							<span class="category">${category}</span>
+							<span class="refurb">${refurb}</span>
+						</div>
+						<p class="title">${name}</p>
+						<p class="price">
+							<span>₩</span>${price}
+							<span class="sale"><del><span>₩</span>${sale}</del></span>
+						</p>
+						
+					</div>
 				</div>
-				<p class="title">${name}</p>
-				<p class="price"><span>₩</span>${price}</p>
-				<p class="sale"><del><span>₩</span>${sale}</del></p>
-			</div>
-	</div></a>
-	`
+			</a> `
 			$('.main .container .products').append(html);
 			console.log(`i = `, i)
 		}

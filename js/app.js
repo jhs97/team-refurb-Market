@@ -2,12 +2,9 @@
 $(function(){
   const html = `
     <!-- 검색 UI -->
-
-
-
 		<nav id="k-menuContainer">
 	
-		<button class="k-closeBtn">
+		<button id="k-closeBtn">
 			<i class="bi bi-chevron-left"></i>
 		</button>
 	
@@ -39,7 +36,7 @@ $(function(){
 	
 		</nav>`;
 
-  $('body').append(html); 
+  $('body .k-page').append(html); 
 
 }); // $
 
@@ -47,11 +44,11 @@ $(function(){
 
   /*** #gnb toggle ***/
   // 1. 열기: #toggle-btn 클릭시 #gnb on
-  $('.toggle-btn').click(function(){
+  $('#toggle-btn').click(function(){
     $('#k-menuContainer').addClass('on');
   });
   // 2. 닫기: #btn-close 클릭시 #gnb 닫음
-  $('.k-closeBtn').click(function(){
+  $('#k-closeBtn').click(function(){
     $('#k-menuContainer').removeClass('on');
   });
 
