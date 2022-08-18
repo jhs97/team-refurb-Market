@@ -22,6 +22,9 @@
 ✔ jQeury <br> - location.seach로 페이지 별 요청 파라미터 확인 <br> - 주문하기 모달창 구현<br>
 ✔ Swiper <br>
 
+✔ meta tag 사용 <br>
+✔ Open Graph 태그 사용 <br>
+
 ## 홈페이지 주소
 
 https://jhs97.github.io/team-refurb-Market/
