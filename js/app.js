@@ -1,5 +1,4 @@
-
-$(function(){
+$(function () {
   const html = `
     <!-- 검색 UI -->
 		<nav id="k-menuContainer">
@@ -36,20 +35,17 @@ $(function(){
 	
 		</nav>`;
 
-  $('body .k-page').append(html); 
-
+  $("body .k-page").append(html);
 }); // $
 
-$(function(){
-
+$(function () {
   /*** #gnb toggle ***/
   // 1. 열기: #toggle-btn 클릭시 #gnb on
-  $('#toggle-btn').click(function(){
-    $('#k-menuContainer').addClass('on');
+  $("#toggle-btn").click(function () {
+    $("#k-menuContainer").addClass("on");
   });
   // 2. 닫기: #btn-close 클릭시 #gnb 닫음
-  $('#k-closeBtn').click(function(){
-    $('#k-menuContainer').removeClass('on');
+  $("#k-closeBtn").click(function () {
+    $("#k-menuContainer").removeClass("on");
   });
-
 }); // $
