@@ -11,6 +11,10 @@
 3. 제품보기 - data fetching
 4. 메인 페이지, 로그인, 장바구니, 제품페이지, 제품상세페이지 구성
 
+## 작품 대표이미지
+![refure-market-title-img](https://user-images.githubusercontent.com/105402450/185271684-f3a9511d-cabe-4959-8aa3-54d2a63a47c4.jpg)
+
+
 ## 라이브러리
 
 ✔ Javascript <br> - fetch API <br>
